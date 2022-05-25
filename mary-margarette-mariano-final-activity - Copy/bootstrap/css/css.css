@@ -1,0 +1,110 @@
+a {
+	text-decoration: none !important;
+}
+
+
+
+
+
+#tools {
+	
+	width: 200px !important;
+	padding: 20px;
+	
+}
+.loginContainer {
+	margin: 0 auto 0 auto;
+	width: 300px;
+	padding: 30px;
+	color: white;
+
+	
+}
+
+
+
+.mainContainer {
+background: rgb(20,48,75);
+background: linear-gradient(90deg, rgba(20,48,75,1) 0%, rgba(14,131,189,1) 35%, rgba(0,212,255,1) 100%);
+
+height: 400px;
+}
+
+.inputText {
+		background-color: inherit;
+		padding: 5px;
+		width: 100%;
+		border-color: white;
+		border-style: solid;
+}
+
+body {
+            font-family: "Lato", sans-serif;
+        }
+        
+        .sidebar {
+            height: 100%;
+            width: 85px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background: rgba(14,131,189,1);
+
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+            white-space: nowrap;
+        }
+        
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #ffffff;
+            display: block;
+            transition: 0.3s;
+        }
+        
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+        
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        
+        .material-icons,
+        .icon-text {
+            vertical-align: middle;
+        }
+        
+        .material-icons {
+            padding-bottom: 3px;
+        }
+        
+        #main {	
+		
+            transition: margin-left .5s;
+            padding: 16px;
+            margin-left: 100px;
+			
+			 @media screen and (max-height: 450px) {
+            .sidebar {
+                padding-top: 15px;
+            }
+            .sidebar a {
+                font-size: 18px;
+            }
+        }
+		
+.belowAbsolute {
+	position: absolute;
+	bottom:1px;
+	color: red;
+}
+
